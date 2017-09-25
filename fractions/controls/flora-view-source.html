@@ -1,0 +1,27 @@
+<div class="row">
+	<input type="checkbox" id="show-source" />
+	<label for="show-source"></label>
+</div>
+
+<div class="row hide" id="source">
+	<textarea id="edit-regular" class="left-align"></textarea>
+	<label for="edit-regular"></label>
+</div>
+<script>
+	$('#show-source').change(function() {
+		if ($(this).is(':checked')) {
+			$('#source').removeClass('hide');
+		}	
+		else {
+			$('#source').addClass('hide');
+		}
+	});
+	
+	$('#edit-regular').change(function() {
+		$('#edit').editable('setHTML', $(this).val(), false);
+	});
+	
+	$('#edit').on('editable.contentChanged', function (e, editor) {
+		$('#edit-regular').val($('#edit').editable('getHTML', true, true));
+	});
+</script>

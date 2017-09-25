@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language-file name="Hebrew" code="he" display-name="עברית" direction="rtl" default="">
+	
+	<!-- General -->
+	<title>כותרת</title>
+	<date>תאריך</date>
+	<soon>בקרוב</soon>
+	<name>שם</name>
+	<path>נתיב</path>
+	<permissions>הרשאות</permissions>
+	<permission>הרשאה</permission>
+	<author>מאת</author>
+	<content>תוכן</content>
+	<posts>פוסטים</posts>
+	<post>פוסט</post>
+	<subjects>נושאים</subjects>
+	<replies>תגובות</replies>
+	<pages>עמודים</pages>
+	<users>משתמשים</users>
+	<contact-us>צור קשר</contact-us>
+	<quote>הגב</quote>
+	<language>שפה</language>
+	<keywords>מילות מפתח</keywords>
+	<description>תיאור</description>
+	<cover-image-for>תמונה ראשית עבור '%s'</cover-image-for>
+	<cover-image>תמונה ראשית</cover-image>
+	<choose-image>בחר תמונה</choose-image>
+	<back-to-homepage>חזור לעמוד הראשי</back-to-homepage>
+	<read-more>המשך לקרוא...</read-more>
+	<edit>ערוך</edit>
+	
+	<!-- Site -->
+	<site-title>סשן עוגיות</site-title>
+	<site-description>
+		סשן עוגיות הוא בלוג פיתוח תוכנה ישראלי אשר נכתב על ידי אלירן פאר ואלון עבאדי, ומכיל פוסטים על חידושים טכנולוגיים בתחום התוכנה, מרדיכים מצולמים ועוד...
+		בין השאר, הבלוג מכיל מידע על Node.js, C#, PHP ו- HTML5.
+	</site-description>
+	<site-keywords>Node.js, C#, PHP, HTML5, אלון עבאדי, אלירן פאר</site-keywords>
+	
+	<!-- Error messages -->
+	<error>שגיאה</error>
+	<not-found>אנחנו מצטערים, אך העמוד שחיפשת אינו נמצא. אנא נסה שנית.</not-found>
+	<unknown-email>הדואר האלקטרוני שהזנת לא נמצא במערכת.</unknown-email>
+	<wrong-password>הסיסמה שהזנת שגויה.</wrong-password>
+	<fill-required-fields>אנא מלא את כל השדות.</fill-required-fields>
+	<enter-valid-email-address>יש להזין כתובת דואר אלקטרוני תקינה.</enter-valid-email-address>
+	<cannot-find-file>הקובץ "%s" לא קיים.</cannot-find-file>
+	<must-be-unique>הערך שהזנת קיים כבר במערכת. (%s)</must-be-unique>
+	<do-not-exist>הערך אינו קיים במערכת. (%s)</do-not-exist>
+	
+	<!-- Homepage -->
+	<homepage>עמוד הבית</homepage>
+	<go-to-full-post>עבור לפוסט המלא</go-to-full-post>
+	<num-replies>%u תגובות</num-replies>
+	
+	<!-- Admin navigation -->
+	<back-to-blog>חזור לבלוג</back-to-blog>
+	
+	<!-- Footer -->
+	<copyrights>כל הזכויות שמורות © 2015</copyrights>
+	
+	<!-- Eliran Pe'er -->
+	<eliran-peer>אלירן פאר</eliran-peer>
+	<eliran-peer-description>
+		אלירן בן 22, מפתח תוכנה, יוצא יחידה טכנולוגית בחיל האוויר, בעל מעל 6 שנות ניסיון בפיתוח אפליציות Web ו- Desktop במגוון שפות ופלטפורמות.
+			נכון להיום, אלירן מועסק כמפתח .NET בסביבת WPF בחברה במרכז הארץ.
+	</eliran-peer-description>
+	
+	<!-- Alon Abadi -->
+	<alon-abadi>אלון עבאדי</alon-abadi>
+	<alon-abadi-description>
+		אלון בן 25, בוגר ממר"ם עם חיבה מובהקת לטכנולוגיה וכל מה שמתלווה אליה, ותיאבון מוגבר לתפוחים.
+	</alon-abadi-description>
+	
+	<!-- Ido Scapa -->
+	<ido-scapa>עידו סקפה</ido-scapa>
+	<ido-scapa-description>
+		עידו בן 25, מפתח תוכנה בחברת סטארטאפ בתל אביב,\n
+		חולה טכנולוגיה וגאדג'טים, בעל ידע במגוון רחב של שפות פיתוח, הן ב- Web והן ב- Desktop.\n
+		.NET ג'אנקי.\n
+		ואם כל זה לא מספיק, עידו לא יכול לסיים את היום בלי מוזיקה וספורט.\n
+	</ido-scapa-description>
+	
+	<!-- Login -->
+	<login>התחבר</login>
+	
+	<!-- Users -->
+	<email>דואר אלקטרוני</email>
+	<password>סיסמה</password>
+	<display-name>שם תצוגה</display-name>
+	<website>אתר</website>
+	<fullname>שם מלא</fullname>
+	
+	<!-- Admin home -->
+	<site-mangement>פאנל ניהול</site-mangement>
+	<x-last-replies>%u תגובות אחרונות</x-last-replies>
+	<watch-all-replies>צפה בכל התגובות</watch-all-replies>
+	<x-authors-last-posts>%u פוסטים אחרונים שלך</x-authors-last-posts>
+	<watch-all-posts>צפה בכל הפוסטים</watch-all-posts>
+	<add-post>הוסף פוסט</add-post>
+	<statistics>סטטיסטיקות</statistics>
+	<google-analytics>גוגל אנלטיקס</google-analytics>
+	<go-to-google-analytics-panel>עבור אל לוח הבקרה של גוגל</go-to-google-analytics-panel>
+	<welcome>ברוך הבא, %s</welcome>
+	
+	<!-- Pages management -->
+	<pages-management>ניהול עמודים</pages-management>
+	<create-page>הוסף עמוד</create-page>
+	<edit-page>ערוך עמוד</edit-page>
+	<page-updated-successfully>העמוד התעדכן בהצלחה!</page-updated-successfully>
+	<english-name>שם (אנגלית)</english-name>
+	<physical-path>נתיב פיזי</physical-path>
+	<model>מודל</model>
+	
+	<!-- Posts management -->
+	<posts-management>ניהול פוסטים</posts-management>
+	<create-post>צור פוסט</create-post>
+	<edit-post>ערוך פוסט</edit-post>
+	
+	<!-- Replies management -->
+	<replies-management>ניהול תגובות</replies-management>
+	<create-reply>הוסף תגובה</create-reply>
+	<edit-reply>ערוך תגובה</edit-reply>
+	<reply-updated-successfully>התגובה התעדכנה בהצלחה!</reply-updated-successfully>
+	
+	<!-- Users management -->
+	<users-management>ניהול משתמשים</users-management>
+	<create-user>צור משתמש</create-user>
+	<edit-user>ערוך משתמש</edit-user>
+	
+</language-file>

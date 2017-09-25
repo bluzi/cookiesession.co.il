@@ -1,0 +1,126 @@
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="%%externals/flora/css/froala_editor.min.css" rel="stylesheet" type="text/css">
+<link href="%%externals/flora/css/froala_style.min.css" rel="stylesheet" type="text/css">
+<script src="%%externals/flora/js/froala_editor.min.js"></script>
+<script src="%%externals/flora/js/plugins/tables.min.js"></script>
+<script src="%%externals/flora/js/plugins/lists.min.js"></script>
+<script src="%%externals/flora/js/plugins/char_counter.min.js"></script>
+<script src="%%externals/flora/js/plugins/colors.min.js"></script>
+<script src="%%externals/flora/js/plugins/font_family.min.js"></script>
+<script src="%%externals/flora/js/plugins/font_size.min.js"></script>
+<script src="%%externals/flora/js/plugins/block_styles.min.js"></script>
+<script src="%%externals/flora/js/plugins/video.min.js"></script>
+<script src="%%externals/flora/js/plugins/file_upload.min.js"></script>
+<script src="%%externals/flora/js/plugins/fullscreen.min.js"></script>
+<script src="%%externals/flora/js/plugins/inline_styles.min.js"></script>
+
+<div class="flora-wrapper">
+	<textarea id="edit" name="{{name}}">
+		{{content}}
+	</textarea>
+</div>
+
+<script>
+	$(function(){
+		$('#edit').editable({
+			minHeight: '300',
+			inlineMode: false,
+			direction: 'rtl',
+			placeholder: 'התחל לכתוב...',
+			
+			customButtons: {
+				code: {
+					title: 'C# Code',
+					icon: {
+						type: 'font',
+			
+						// Font Awesome icon class fa fa-*.
+						value: 'fa fa-code'
+					},
+					callback: function () {
+						if (!this.selectionInEditor()) {
+							this.$element.focus(); // Focus on editor if it's not.
+						}
+				
+						//var html = '<code>' + (this.text() || '&#8203;') + '<span class="f-marker" data-type="false" data-id="0" data-fr-verified="true"></span><span class="f-marker" data-type="true" data-id="0" data-fr-verified="true"></span></code>';
+						var html = '<pre><code class="language-chsarp">' + this.text() + '</code></pre>';
+				
+						this.insertHTML(html);
+						this.restoreSelectionByMarkers();
+						this.saveUndoStep();
+					},
+					refresh: function () { }
+				},
+				youtube: {
+					title: 'Youtube',
+					icon: {
+						type: 'font',
+			
+						// Font Awesome icon class fa fa-*.
+						value: 'fa fa-youtube-play'
+					},
+					callback: function () {
+						if (!this.selectionInEditor()) {
+							this.$element.focus(); // Focus on editor if it's not.
+						}
+						
+						var link = prompt("Your video link plz", "Youtube Embed by Eliran Pe'er");
+						var html = '<div style="text-align: center;"><span class="f-video-editor fr-fvn" contenteditable="false"><iframe allowfullscreen="" height="315" src="' + link + '" width="420"></iframe></span></div>';
+				
+						this.insertHTML(html);
+						this.restoreSelectionByMarkers();
+						this.saveUndoStep();
+					},
+					refresh: function () { }
+				},
+				readmore: {
+					title: 'readmore',
+					icon: {
+						type: 'font',
+			
+						// Font Awesome icon class fa fa-*.
+						value: 'fa fa-share'
+					},
+					callback: function () {
+						if (!this.selectionInEditor()) {
+							this.$element.focus(); // Focus on editor if it's not.
+						}
+						
+						var html = '<hr class="read-more">';
+				
+						this.insertHTML(html);
+						this.restoreSelectionByMarkers();
+						this.saveUndoStep();
+					},
+					refresh: function () { }
+				}
+			},
+			buttons: ['undo', 'redo', 'sep', 
+					  'bold', 'underline', 'italic', 'sep', 
+					  'code', 'sep',
+					  'color', 'fontSize', 'fontFamily', 'align', 'sep',
+					  'inlineStyle', 'blockStyle', 'formatBlock', 'removeFormat', 'sep',
+					  'table', 'sep',
+					  'insertOrderedList', 'insertUnorderedList', 'sep',
+					  'createLink', 'insertImage', 'insertVideo', 'youtube', 'sep',
+					  'readmore', 'html', 'sep'],
+			blockTags: {
+				code: 'code',
+				pre: 'pre',
+				h1: 'Headline 1',
+				h2: 'Headline 2',
+				h3: 'Headline 3',
+				h4: 'Headline 4',
+				h5: 'Headline 5',
+				h6: 'Headline 6',
+			},
+			blockStyles: {
+				'code': {
+					'language-csharp': 'C#',
+					'language-html': 'HTML'
+				},
+			},
+			
+		})
+	});
+</script>

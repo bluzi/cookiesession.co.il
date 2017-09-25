@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language-file name="English" code="en" display-name="English" direction="ltr">
+	<!-- Error messages -->
+	<unknown-email>The email address you've entered does not exist in the system.</unknown-email>
+	<wrong-password>Wrong password.</wrong-password>
+	
+	<!-- General -->
+	<site-title>סשן עוגיות</site-title>
+	<title>כותרת</title>
+	<date>תאריך</date>
+	<soon>בקרוב</soon>
+	<name>שם</name>
+	<path>נתיב</path>
+	<permissions>הרשאות</permissions>
+	<permission>הרשאה</permission>
+	<author>מאת</author>
+	<content>תוכן</content>
+	<posts>פוסטים</posts>
+	<post>פוסט</post>
+	<subjects>נושאים</subjects>
+	<replies>תגובות</replies>
+	<pages>עמודים</pages>
+	<users>משתמשים</users>
+	<contact-us>צור קשר</contact-us>
+	<quote>הגב</quote>
+	
+	<!-- Homepage -->
+	<homepage>עמוד הבית</homepage>
+	<go-to-full-post>מעבר לפוסט המלא</go-to-full-post>
+	
+	<!-- Admin navigation -->
+	<back-to-blog>חזור לבלוג</back-to-blog>
+	
+	<!-- Footer -->
+	<copyrights>כל הזכויות שמורות © 2015</copyrights>
+	
+	<!-- Eliran Pe'er -->
+	<eliran-peer>אלירן פאר</eliran-peer>
+	<eliran-peer-description>
+		אלירן בן 22, מפתח תוכנה, יוצא יחידה טכנולוגית בחיל האוויר, בעל מעל 6 שנות ניסיון בפיתוח אפליציות Web ו- Desktop במגוון שפות ופלטפורמות.
+			נכון להיום, אלירן מועסק כמפתח .NET בסביבת WPF בחברה במרכז הארץ.
+	</eliran-peer-description>
+	
+	<!-- Alon Abadi -->
+	<alon-abadi>אלון עבאדי</alon-abadi>
+	<alon-abadi-description>
+		אלון בן 25, בוגר ממר"ם עם חיבה מובהקת לטכנולוגיה וכל מה שמתלווה אליה, ותיאבון מוגבר לתפוחים.
+	</alon-abadi-description>
+	
+	<!-- Login -->
+	<login>התחבר</login>
+	
+	<!-- Users -->
+	<email>דואר אלקטרוני</email>
+	<password>סיסמה</password>
+	<display-name>שם תצוגה</display-name>
+	<website>אתר</website>
+	<fullname>שם מלא</fullname>
+	
+	<!-- Admin home -->
+	<site-mangement>פאנל ניהול</site-mangement>
+	<x-last-replies>%u תגובות אחרונות</x-last-replies>
+	<watch-all-replies>צפה בכל התגובות</watch-all-replies>
+	<x-authors-last-posts>%u פוסטים אחרונים שלך</x-authors-last-posts>
+	<watch-all-posts>צפה בכל הפוסטים</watch-all-posts>
+	<add-post>הוסף פוסט</add-post>
+	<statistics>סטטיסטיקות</statistics>
+	<google-analytics>גוגל אנלטיקס</google-analytics>
+	<go-to-google-analytics-panel>עבור אל לוח הבקרה של גוגל</go-to-google-analytics-panel>
+	
+	<!-- Pages management -->
+	<pages-management>ניהול עמודים</pages-management>
+	<create-page>הוסף עמוד</create-page>
+	<edit-page>ערוך עמוד</edit-page>
+	<page-updated-successfully>העמוד התעדכן בהצלחה!</page-updated-successfully>
+	<english-name>שם (אנגלית)</english-name>
+	<physical-path>נתיב פיזי</physical-path>
+	<model>מודל</model>
+	
+	<!-- Posts management -->
+	<posts-management>ניהול פוסטים</posts-management>
+	<create-post>צור פוסט</create-post>
+	<edit-post>ערוך פוסט</edit-post>
+	
+	<!-- Replies management -->
+	<replies-management>ניהול תגובות</replies-management>
+	<create-reply>הוסף תגובה</create-reply>
+	<edit-reply>ערוך תגובה</edit-reply>
+	<reply-updated-successfully>התגובה התעדכנה בהצלחה!</reply-updated-successfully>
+	
+	<!-- Users management -->
+	<users-management>ניהול משתמשים</users-management>
+	<create-user>צור משתמש</create-user>
+	<edit-user>ערוך משתמש</edit-user>
+	
+	
+</language-file>

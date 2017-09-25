@@ -1,0 +1,24 @@
+<tr>
+	<td>
+		<input type="checkbox" id="user_{{id}}" />
+      	<label for="user_{{id}}"></label>
+	</td>
+	<td>
+		{{email}}
+	</td>
+	<td>
+		{{permission_description}}
+	</td>
+	<td>
+		{{display_name}}
+	</td>
+	<td>
+		<a href="%user_edit%?id={{id}}">
+			<i class="material-icons">settings</i>
+		</a>
+		
+		<a href="%user_delete%?id={{id}}">
+			<i class="material-icons">delete</i>
+		</a>
+	</td>
+</tr>

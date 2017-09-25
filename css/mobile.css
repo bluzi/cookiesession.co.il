@@ -1,0 +1,7 @@
+@media only screen and (max-device-width:480px){nav{height:120px !important;line-height:120px !important;}
+nav .brand-logo{margin-right:20px;}
+nav .button-collapse i{line-height:120px !important;margin-left:20px;}
+html{font-size:30px !important;}
+.side-nav li{padding-top:0px !important;}
+.side-nav li{padding-top:35px !important;padding-bottom:35px !important;}
+}

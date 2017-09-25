@@ -1,0 +1,24 @@
+<script src="http://www.alohaeditor.org/download/aloha.min.js"></script>
+
+<button class="action-bold">B</button>
+<button class="action-italic">I</button>
+<button class="action-underline">U</button>
+<button class="action-unformat">✘</button>
+
+<div id="editable">{{content}}</div>
+
+
+<input type="hidden" id="aloha_form_element" name="{{name}}" />
+<script>
+	aloha.dom.query('#editable', document).forEach(aloha);
+	$('#editable').bind("DOMSubtreeModified",function(){
+		$("#aloha_form_element").val($('#editable').html());
+	}); 
+	
+	for (var command in aloha.ui.commands) {
+		$('.action-' + command).on(
+			'click',
+			aloha.ui.command(aloha.ui.commands[command])
+		);
+	}
+</script>

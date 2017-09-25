@@ -1,0 +1,10 @@
+<script src="//cdn.ckeditor.com/4.5.4/full/ckeditor.js"></script>
+
+<textarea name="{{name}}" id="ckeditor" rows="10" cols="80">
+	{{content}}
+</textarea>
+<script>
+	CKEDITOR.config.contentsLangDirection = 'rtl';
+	CKEDITOR.replace('ckeditor');
+	CKEDITOR.config.contentsCss = '/css/style.css';
+</script>
